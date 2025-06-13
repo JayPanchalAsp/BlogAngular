@@ -1,0 +1,50 @@
+<app-page-title title="Blog"></app-page-title>
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-8">           
+          <!-- Blog Posts Section -->
+            <section id="blog-posts" class="blog-posts section">
+                <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                    <app-blog-card></app-blog-card>
+                    </div><!-- End post list item -->
+
+                    <div class="col-lg-6">
+                        <app-blog-card></app-blog-card>
+                    </div><!-- End post list item -->
+
+                    <div class="col-lg-6">
+                    <app-blog-card></app-blog-card>
+                    </div><!-- End post list item -->
+
+                    <div class="col-lg-6">
+                    <app-blog-card></app-blog-card>
+                    </div><!-- End post list item -->
+
+                    <div class="col-lg-6">
+                    <app-blog-card></app-blog-card>
+                    </div><!-- End post list item -->
+
+                    <div class="col-lg-6">
+                    <app-blog-card></app-blog-card>
+                    </div><!-- End post list item -->          
+                </div>
+            </div>
+            </section><!-- /Blog Posts Section -->
+            <app-pagination></app-pagination>
+        </div>
+
+        <div class="col-lg-4 sidebar">   
+             <div class="widgets-container">
+                <app-search></app-search>
+            </div>
+            <div class="widgets-container">
+                <app-recent-post></app-recent-post>
+            </div>
+             <div class="widgets-container">
+                <app-tags></app-tags>
+            </div>        
+        </div>
+    </div>
+</div>

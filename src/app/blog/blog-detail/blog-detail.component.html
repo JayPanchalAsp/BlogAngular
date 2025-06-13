@@ -1,0 +1,48 @@
+<app-page-title title="Blog Detail"></app-page-title>
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-8">           
+          
+          <!-- Blog Details Section -->
+          <section id="blog-details" class="blog-details section">
+            <div class="container">
+              <app-blog-detail-section></app-blog-detail-section>
+            </div>
+          </section><!-- /Blog Details Section -->
+
+          <!-- Blog Comments Section -->
+          <section id="blog-comments" class="blog-comments section">
+
+            <div class="container">
+
+            <app-blog-comment></app-blog-comment>
+
+            </div>
+
+          </section><!-- /Blog Comments Section -->
+
+          <!-- Comment Form Section -->
+          <section id="comment-form" class="comment-form section">
+            <div class="container">
+
+             <app-blog-comment-form></app-blog-comment-form>
+            </div>
+          </section><!-- /Comment Form Section -->
+        </div>
+
+        <div class="col-lg-4 sidebar">
+            <div class="widgets-container">
+                <app-author-card></app-author-card>
+            </div>
+             <div class="widgets-container">
+                <app-search></app-search>
+            </div>
+            <div class="widgets-container">
+                <app-recent-post></app-recent-post>
+            </div>
+             <div class="widgets-container">
+                <app-tags></app-tags>
+            </div>        
+        </div>
+    </div>
+</div>
